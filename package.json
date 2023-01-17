@@ -1,0 +1,32 @@
+{
+  "name": "horisen-angular-snippets",
+  "displayName": "HorisenAngularSnippets",
+  "description": "HORISEN Angular snippets used to make development easier.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/grid/typescript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/grid/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/main-page/typescript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/main-page/html.json"
+      }
+    ]
+  }
+}

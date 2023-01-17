@@ -1,0 +1,9 @@
+{
+  "mainPageComponentTemplate": {
+    "key": "mainPageComponent",
+    "prefix": "h-mainPage",
+    "description": "Creates a Main Page component.",
+    "body": [],
+    "scope": "typescript"
+  }
+}

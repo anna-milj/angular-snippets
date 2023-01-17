@@ -1,0 +1,9 @@
+{
+  "gridComponentTemplate": {
+    "key": "gridComponentTemplate",
+    "prefix": "h-gridTemplate",
+    "description": "Creates a Grid component template.",
+    "body": [],
+    "scope": "typescript"
+  }
+}

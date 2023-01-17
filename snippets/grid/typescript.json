@@ -1,0 +1,9 @@
+{
+  "mainPageComponentTemplate": {
+    "key": "gridComponent",
+    "prefix": "h-grid",
+    "description": "Creates a Grid component.",
+    "body": [],
+    "scope": "typescript"
+  }
+}
