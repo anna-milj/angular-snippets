@@ -1,0 +1,34 @@
+{
+    "dialogKendoTemplate": {
+        "key": "dialogKendoDeleteTemplate",
+        "prefix": "h-dialogKendoDeleteTemplate",
+        "description": "Creates a kendo delete confirmation dialog template",
+        "body": [
+          "const dialog = this.dialogService.open({",
+          "      title: ${1:'dialog title'},",
+          "      content: ${2:'dialog content'},",
+          "      width: ${3:450},",
+          "      height: ${4:250},",
+          "      actionsLayout: 'normal',",
+          "      actions: [",
+          "        {",
+          "          text: this.translate.instant(${5:'G_NO'}),",
+          "          value: 'no',",
+          "        },",
+          "        {",
+          "          text: this.translate.instant(${6:'G_YES'}),",
+          "          value: 'yes',",
+          "          themeColor: 'primary',",
+          "        },",
+          "      ]",
+          "    });",
+          "",
+          "    dialog.result.subscribe((result: any) => {",
+          "      if (result?.value === 'yes') {",
+          "        ${7:// if yes clicked}",
+          "      }",
+          "    });"
+        ],
+        "scope": "typescript"
+      }
+  }

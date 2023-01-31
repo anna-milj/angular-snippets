@@ -26,6 +26,10 @@
       {
         "language": "html",
         "path": "./snippets/main-page/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-dialog-delete/typescript.json"
       }
     ]
   }
