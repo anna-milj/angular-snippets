@@ -29,7 +29,7 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/ts-dialog-delete/typescript.json"
+        "path": "./snippets/ts-dialog-confirm/typescript.json"
       }
     ]
   }

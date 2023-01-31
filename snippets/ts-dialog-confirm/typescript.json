@@ -1,8 +1,8 @@
 {
     "dialogKendoTemplate": {
-        "key": "dialogKendoDeleteTemplate",
-        "prefix": "h-dialogKendoDeleteTemplate",
-        "description": "Creates a kendo delete confirmation dialog template",
+        "key": "dialogKendoConfirmationTemplate",
+        "prefix": "h-dialogKendoConfirmationTemplate",
+        "description": "Creates a kendo confirmation dialog template",
         "body": [
           "const dialog = this.dialogService.open({",
           "      title: ${1:'dialog title'},",
