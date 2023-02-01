@@ -26,6 +26,14 @@
       {
         "language": "html",
         "path": "./snippets/main-page/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/form/typescript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/form/html.json"
       }
     ]
   }

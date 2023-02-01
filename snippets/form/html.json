@@ -1,0 +1,31 @@
+{ 
+    "formComponentTemplate": {
+        "prefix": "h-Form",
+        "description": "Creates form component.",
+        "body": [
+        "<form class=\"hui-window container k-form\" [formGroup]=\"myForm\">",
+        "  <hpro-core-loader class=\"window-loader\" *ngIf=\"loading\"></hpro-core-loader>",
+        "  <header class=\"hui-window-header border-bottom p-2\">",
+        "  </header>",
+        "  <main class=\"hui-window-main\">",
+        "  </main>",
+        "  <footer class=\"p-3 bg-light\">",
+        "    <button",
+        "      class=\"me-2 px-3\"",
+        "      kendoButton",
+        "      type=\"submit\"",
+        "      [primary]=\"true\"",
+        "      (click)=\"submit()\"",
+        "    >",
+        "      {{ \"G_SAVE\" | translate }}",
+        "    </button>",
+        "    <button class=\"me-2 px-3\" kendoButton type=\"button\" (click)=\"close()\">",
+        "      {{ \"G_CANCEL\" | translate }}",
+        "    </button>",
+        "  </footer>",
+        "</form>",
+        ""
+        ],
+        "scope": "typescript"
+  }
+}

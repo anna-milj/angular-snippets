@@ -1,0 +1,10 @@
+{
+    "formComponentTemplate": {
+      "key": "formComponent",
+      "prefix": "h-form",
+      "description": "Creates a Form component.",
+      "body": [],
+      "scope": "typescript"
+    }
+  }
+  
