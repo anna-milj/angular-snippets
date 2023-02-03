@@ -29,6 +29,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/custom-notifications/typescript.json"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/ts-dialog-confirm/typescript.json"
       }
     ]
