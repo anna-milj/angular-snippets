@@ -1,0 +1,29 @@
+{
+    "hproCoreWindowServiceDialogTemplate": {
+      "key": "hproWindowServiceDialogTemplate",
+      "prefix": "h-hproWindowDialog",
+      "description": "Creates a HproCoreWindowService dialog template",
+      "body": [
+        "const ref = this.hproWindowService.show<${1:PageComponent}>(",
+    "        this.windowService,",
+    "        {",
+    "          title: this.translate.instant(${2: 'Title'}),",
+    "          content: ${3:PageComponent},",
+    "          draggable: false,",
+    "          resizable: false,",
+    "          width: ${4:800},",
+    "        },",
+    "        {",
+    "          align: 'right',",
+    "          widthUnit: 'px',",
+    "          mode: HproCoreDialogMode.${5:NEW},",
+    "        }",
+    "      );",
+    "",
+    "    //Bind data to component",
+    "    //ref.componentRef.params = params;",
+    "    ${6:Some Data binding}"
+      ],
+      "scope": "typescript"
+    }
+  }
