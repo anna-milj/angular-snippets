@@ -34,6 +34,10 @@
       {
         "language": "typescript",
         "path": "./snippets/ts-dialog-confirm/typescript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/hpro-window-dialog/typescript.json"
       }
     ]
   }
