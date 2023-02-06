@@ -1,0 +1,10 @@
+{
+    "showNotifications": {
+      "scope": "javascript,typescript",
+      "prefix": "custom-notif",
+      "body": [
+        "this.notificationService.showNotification('$1','${2|error,success,warning,info,none|}');"
+      ],
+      "description": "Show Custom Notifications. Pass message key to be translated & displayed and choose type of notification"
+    }
+  }
